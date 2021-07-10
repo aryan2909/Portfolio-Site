@@ -23,9 +23,9 @@ html{
     margin: 25px 0px;
 }
 .navbar ul li{
-    font-family: century;
-    font-size: 1.1rem;
-    font-weight: bold;
+    font-family: 'Inconsolata';
+    font-size: 1.5rem;
+    font-weight:bolder;
 
 
 }
@@ -72,7 +72,7 @@ html{
     right: 10%;
 }
 .headings{
-    font-family: century;
+    font-family: 'Zen Tokyo Zoo';
     font-size: 3rem;
     text-align: center;
     margin: 40px 0px;
@@ -81,6 +81,7 @@ html{
 }
 .btn{
 
+    font-family: century;
     padding: 10px 35px;
     background-color: transparent;
     border: 1px solid black;
@@ -93,7 +94,7 @@ html{
     cursor: pointer;
     background-color:rgba(255, 255, 255, 0.5);
     color: black;
-    box-shadow: 0 0 5px black, 0 0 10px black, 0 0 15px black;
+    box-shadow: 0 0 7px black, 0 0 10px black, 0 0 25px black;
     font-weight: bold;
 
 }
@@ -108,6 +109,7 @@ html{
     
 
 }
+
 #pic{
     display: flex;
 }
@@ -117,6 +119,7 @@ html{
 
 }
 #intro{
+    font-family: 'Inconsolata';
     display: flex;
     flex-direction: column;
     text-align: justify;
@@ -129,7 +132,7 @@ html{
 }
 /* SKILLS Section */
 #skills{
-    background-color:rgba(99, 99, 238, 0.5);
+    background-color:rgba(107, 107, 238, 0.5);
     display:flex;
     flex-direction: column;
     padding: 20px;
@@ -141,6 +144,7 @@ html{
 
 }
 .box{
+    font-family: 'Inconsolata';
     display: flex;
     flex-direction: column;
     width: 350px;
